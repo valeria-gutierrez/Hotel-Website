@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the most extraordinary hotel in Boston Massachusetts">
+    <meta name="keywords" content="hotel,boston hotel, new england hotel">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+    integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+    crossorigin="anonymous"
+  >
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hotel BT | Contact</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <!-- AL DAR CLICK EN HBT NOS DIRIGE A LA PAGINA PRINCIPAL -->
+                <h1 class="logo"><a href="index.html"></a>HBT</h1>  
+            <ul>
+                <!-- LISTAMOS LAS DIRECCIONES DEL MENU Y SE MARCA EN DONDE ESTAMOS-->
+                <li> <a href="index.html">Home</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a class="current" href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
+            <p>FILL OUT THE FORM</p>
+            <form action="process.php">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-Mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea type="text" name="message" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+   
+    <footer id="main-footer">
+        <p>Hotel BT &copy; 2019, All Rights Reserved</p>
+    </footer>
+</body>
+</html>
